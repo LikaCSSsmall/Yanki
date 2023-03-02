@@ -1,0 +1,22 @@
+/*
+Theme Name: CustomTheme
+Theme URI: https://wordpress.org/themes/CustomTheme/
+Author: the KofeLatte team
+Author URI: http://KofeLatte.com.ua/
+Description: CustomTheme brings your site to life with immersive featured images and subtle animations. Our default theme works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CustomTheme
+Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import "sass/variables";
+@import "sass/global.scss";
+@import "sass/reset.scss";
+@import "sass/fonts";
+@import "sass/header";
+@import "sass/page/404";
+@import "sass/footer";
+@import "sass/media/media";

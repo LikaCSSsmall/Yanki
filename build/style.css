@@ -1,0 +1,117 @@
+/*
+Theme Name: CustomTheme
+Theme URI: https://wordpress.org/themes/CustomTheme/
+Author: the KofeLatte team
+Author URI: http://KofeLatte.com.ua/
+Description: CustomTheme brings your site to life with immersive featured images and subtle animations. Our default theme works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CustomTheme
+Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/ /*grey*/
+/*text-default*/
+/*   <Breadcrumbs/>   */
+/*   <Muve-top/>   */
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+label {
+  cursor: pointer;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.is-open {
+  opacity: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* === BEGIN FONTS === */
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("./assets/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("./assets/fonts/Gilroy-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* === END FONTS === */
+/*404*/ /* === BEGIN MEDIA === */
+/* ======================
+$mobile-small 240px
+$mobile-large 320px
+$tablet-small 480px
+$tablet-large 768px
+$screen-small 1024px
+$screen-large 1280px 
+====================== */
+/* === END MEDIA === */
+/*# sourceMappingURL=style.css.map */
